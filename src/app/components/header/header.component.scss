@@ -1,12 +1,14 @@
 .main-header {
 	background-color: #87b448;
+	border-bottom: 2px solid #73993d;
 
 	&__container {
 		box-sizing: border-box;
 		width: 970px;
 		padding-left: 15px;
 		padding-right: 15px;
-		padding-top: 11px; 
+		padding-top: 11px;
+		padding-bottom: 11px; 
 		margin: 0 auto;
 
 		display: flex;
@@ -36,4 +38,66 @@
 	border-radius: 4px;
 
 	background-color: #73993d;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+.user__options {
+	width: 110px;
+}
+
+.user__options button{
+	display: inline;
+	font-size: 0;
+	border: none;
+	background-color: transparent;
+}
+
+.user__notifications {
+	width: 46px;
+}
+
+.user__messages {
+	width: 44px;
+}
+
+.user__link {
+	display: flex;
+	align-items: center;
+
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+		text-decoration-color: #fff;
+	}
+}
+
+.user__avatar img {
+	border-radius: 4px;
+	background-color: #73993d;
+}
+
+.user__nickname {
+	margin-left: 11px;
+
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
 }
