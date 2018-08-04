@@ -1,3 +1,4 @@
+import { AdComponent } from './../../components/main/advertisment/ad.component';
 import { FeaturesComponent } from './../../components/main/features/features.component';
 import { PeopleComponent } from './../../components/main/people/people.component';
 import { NgModule } from '@angular/core';
@@ -16,7 +17,8 @@ import { ServicesComponent } from '../../components/main/services/services.compo
 		SidebarComponent,
 		ServicesComponent,
 		PeopleComponent,
-		FeaturesComponent
+		FeaturesComponent,
+		AdComponent
 	],
 	exports: [
 		HomeComponent,
