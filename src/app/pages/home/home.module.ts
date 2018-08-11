@@ -1,3 +1,4 @@
+import { MainNavComponent } from './../../components/main/sidebar/main-nav/main-nav.component';
 import { AdComponent } from './../../components/main/advertisment/ad.component';
 import { FeaturesComponent } from './../../components/main/features/features.component';
 import { PeopleComponent } from './../../components/main/people/people.component';
@@ -15,6 +16,7 @@ import { ServicesComponent } from '../../components/main/services/services.compo
 		HeaderComponent,
 		MainComponent,
 		SidebarComponent,
+		MainNavComponent,
 		ServicesComponent,
 		PeopleComponent,
 		FeaturesComponent,
