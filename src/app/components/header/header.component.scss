@@ -23,6 +23,22 @@
 	width: 435px;
 	margin-top: 6px;
 	margin-right: 20px;
+
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		
+		width: 16px;
+		height: 16px;
+
+		background-color: transparent;
+		background-image: url("../../../assets/sprite.png");
+		background-position: -10px -201px;
+	}
 }
 
 .search__input{
@@ -66,15 +82,23 @@
 	display: inline;
 	font-size: 0;
 	border: none;
+
+	height: 22px;
+
+	background-image: url("../../../assets/sprite.png");
 	background-color: transparent;
+
+	cursor: pointer;
 }
 
 .user__notifications {
 	width: 46px;
+	background-position: -10px -100px;
 }
 
 .user__messages {
 	width: 44px;
+	background-position: -10px 0px;
 }
 
 .user__link {
